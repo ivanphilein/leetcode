@@ -1,9 +1,4 @@
 ##Ideas:
-####Mentain two points, one pointing to the smaller number and the other one pointing to the larger number
-####When the sum of two points are equal to the total cost, then return
-####If the sum of two points are smaller, move the left (smaller) pointer one step right
-####If the sum of two points are larger, move the right (larger) pointer one step left
-
 # The returned j here means num_list[j] <= num_list[j+i] and num_list[j] > num_list[j-i] for all i > 0
 # j can be used to find the jth smallest number. Find the smallest instead of the largest because it is easier.
 # the jth is directly the jth smallest, if finding the the number of largest, needs to use len(num_list)- l - 1
